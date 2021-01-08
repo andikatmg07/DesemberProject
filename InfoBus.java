@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Bus;
+package newpackage;
 
 /**
  *
- * @author SATRIA_HR
+ * @author USER DK
  */
 public class InfoBus extends javax.swing.JFrame {
 
@@ -86,13 +86,13 @@ public class InfoBus extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void turunkan_penumpangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_turunkan_penumpangActionPerformed
-        // TODO add your handling code here:
-        return turunkanPenumpang();
+        Turunkan tr = new Turunkan();
+        tr.setVisible(true);
     }//GEN-LAST:event_turunkan_penumpangActionPerformed
 
     private void naikkan_penumpangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_naikkan_penumpangActionPerformed
-        // TODO add your handling code here:
-        return naikkanPenumpang;
+        Naikkan nk = new Naikkan();
+        nk.setVisible(true);
     }//GEN-LAST:event_naikkan_penumpangActionPerformed
 
     /**

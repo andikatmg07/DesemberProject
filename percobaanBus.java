@@ -5,7 +5,7 @@ import java.util.ArrayList;
        private ArrayList<Penumpang> penumpangBiasa = new ArrayList<Penumpang>(16); 
         private ArrayList<Penumpang> penumpangPrioritas = new ArrayList<Penumpang>(4);
         private ArrayList<Penumpang> penumpangBerdiri = new ArrayList<Penumpang>(20);
-        private int ongkos_bus = 2000;
+        private int ongkos_bus = 2500;
         private int totalPendapatan = 0;
     
        public Bus()
